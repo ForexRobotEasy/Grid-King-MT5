@@ -1,0 +1,70 @@
+
+//+------------------------------------------------------------------+
+//|                                                  Grid King MT5    |
+//|                                      ©2021 Forex Robot Easy Team|
+//|                                          Developer's site - forexroboteasy.com|
+//+------------------------------------------------------------------+
+#include <trade\trade.mqh>
+#include <report\report.mqh>
+#include <grid\grid.mqh>
+#include <risk\risk.mqh>
+#include <monitor\monitor.mqh>
+
+void OnTick()
+{
+   // Monitor market conditions and adjust grid levels
+   MonitorMarketConditions();
+
+   // Calculate grid levels based on user-defined parameters
+   CalculateGridLevels();
+
+   // Execute trades based on grid levels and predefined strategies
+   ExecuteTrades();
+
+   // Manage open positions, including stop loss and take profit levels
+   ManagePositions();
+
+   // Provide real-time updates on account equity and overall performance
+   UpdateAccountEquity();
+
+   // Generate reports and perform analysis on trading results
+   GenerateReports();
+}
+
+void CalculateGridLevels()
+{
+   // Implement function to calculate grid levels
+   // based on user-defined parameters
+}
+
+void MonitorMarketConditions()
+{
+   // Implement function to monitor market conditions
+   // and adjust grid levels accordingly
+}
+
+void ExecuteTrades()
+{
+   // Implement function to execute trades
+   // based on grid levels and predefined strategies
+}
+
+void ManagePositions()
+{
+   // Implement function to manage open positions,
+   // including stop loss and take profit levels
+}
+
+void UpdateAccountEquity()
+{
+   // Implement function to provide real-time updates
+   // on account equity and overall performance
+}
+
+void GenerateReports()
+{
+   // Implement function to generate reports
+   // and perform analysis on trading results
+}
+
+//+------------------------------------------------------------------+
